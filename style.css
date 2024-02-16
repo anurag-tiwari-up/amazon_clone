@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: grey;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: #ffffff;
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.nav_logo{
+    height: 45px;
+    width: 120px;
+    padding-top: 3px;
+    
+    margin-right: 3px;
+}
+
+.border{
+    cursor: pointer;
+    border: 1.3px solid transparent;
+    border-radius: 3px;
+}
+.border:hover{
+    border: 1.3px solid white;
+}
+
+.logo{
+    
+    width: 115px;
+}
+.logo img{
+    height: 40px;
+    width: 113px;
+    
+ }
+
+
+/* second section of the navbar starts here  */
+
+.deliver_container{
+    width: 92px;
+    height: 60px;
+    margin-right: 6px;
+}
+.deliver{
+    display: flex;
+    flex-direction: row;
+    width: 91px;
+    height: 50px;
+    align-items: center;
+    margin-top: 3px;
+
+}
+#deliver_to{
+    width: 60px;
+    font-size: 14px;
+    color: #cccccc;
+
+}
+.icon_text{
+    display: flex;
+    flex-direction: column;
+}
+#country{
+    font-size: 16px;
+    color: #ffffff;
+}
+.icon{
+    padding-top: 10px;
+}
+
+/* third section i.e. the search container */
+.search_container{
+    width: 600px;
+    height: 40px;
+    margin-left: 3px;
+    padding: 10px,4px,10px,3px;
+    background-color: yellow;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    
+}
+
+.search_container select{
+    height: 40px;
+    width: 52px;
+    background-color: #e6e6e6;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 0px,0px,0px,5px;
+    font-size: 16px;
+    outline: none;
+
+}
+
+.search_container input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 17px;
+    
+    padding-left: 10px;
+    
+    outline: none;
+}
+
+
+.search_container button{
+    height: 40px;
+    width: 45px;
+    border: none;
+    text-align: center;
+    background-color: yellow;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+
+
+/* fourth section i.e. the language selection part */
+
+.language{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.flag img{
+    width: 18px;
+}
+
+/* fifth section i.e. the account and listings  */
+
+.hello_Account_listings{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 130px;
+    padding-left: 5px;
+}
+.hello{
+    font-size: 12px;
+}
+.accountlistings{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+/* sixth section return & orders */
+
+.return_orders{
+    height: 50px;
+    width: 77px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.return{
+    font-size: 12px;
+
+}
+
+.order{
+    font-size: 14px;
+}
+
+
+/* cart section */
+.cart{
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.cart img{
+    
+    height: 50px;
+    color:white ;
+    
+}
