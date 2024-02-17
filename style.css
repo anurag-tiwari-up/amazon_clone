@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: grey;
+    /* background-color: grey; */
 }
 
 .navbar{
@@ -247,3 +247,37 @@ body{
     padding-top: 12px;
     
 }
+
+/* header section is completed  */
+
+/* hero section starts here */
+
+.hero{
+    height: 600px;
+    background-image: url(resources/amazon-image1.jpg);
+    background-size: cover;
+}
+
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    margin-top: 250px;
+    height: 400px;
+    width: 23%;
+    border: .3px solid pink;
+    background-color: rgba(204, 204, 204, .15);
+    
+}
+
+.gaming{
+    
+    font-size: larger;
+}
+
+.game_items{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+ 
