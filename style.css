@@ -253,9 +253,10 @@ body{
 /* hero section starts here */
 
 .hero{
-    height: 600px;
-    background-image: url(resources/amazon-image1.jpg);
+    height: 651.5px;
+    background-image: url(resources/amazon-background-img-v3.jpg);
     background-size: cover;
+    
 }
 
 .shop{
@@ -267,17 +268,106 @@ body{
     height: 400px;
     width: 23%;
     border: .3px solid pink;
-    background-color: rgba(204, 204, 204, .15);
+    background-color: rgba(255, 255, 255, 1);
     
 }
 
 .gaming{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
     
-    font-size: larger;
+}
+.gaming h2{
+    padding: 2vw;
+
 }
 
 .game_items{
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-direction: column;
 }
- 
+
+.card-links{
+    text-decoration: none;
+    padding-left: 2vw;
+    font-size: 1vw;
+    color: #007185;
+}
+
+.game_items1, .game_items2{
+    display: flex;
+    margin-bottom: 3vw
+}
+
+
+.card_items{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    overflow: hidden;
+}
+.card_items p{
+    text-align: left;
+    font-size: 1vw;
+}
+
+.card_items img{
+    padding-left: .6vw;
+    height: 100%;
+    width: 90%;
+    margin-bottom: 1vw;
+}
+
+/* card 1 i.e. gaming items is done  */
+/* pc card section starts here  */
+
+.pc{
+    margin-bottom: 5vw;
+}
+.pc_content{
+    padding: 2vw 1.5vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+.image{
+    height: 21vw;
+    width: 19.79vw;
+    overflow: hidden;
+    margin-top: 1vw;
+    margin-bottom: 2.5vw;
+}
+
+.image img{
+    padding-top: 2vw;
+    height: 75%;
+    width: 100%;
+    scale: 1.4;
+}
+
+.pc_content a{
+    padding-left: 0;
+}
+
+/* pc done here */
+/* space starts from here  */
+
+
+
+
+.below_hero{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to left, #D4A3D2 0%, #9db7e4 100%);
+}
+.card2{
+    margin-top: 1.5vw;
+    height: 400px;
+    width: 23%;
+    border: .3px solid pink;
+    background-color: rgba(255, 255, 255, 1);
+    
+}
